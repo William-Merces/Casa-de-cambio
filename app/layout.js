@@ -1,5 +1,6 @@
 import { PT_Sans } from 'next/font/google'
 import "./globals.css";
+import Navbar from './components/Navbar';
 
 const ptSans = PT_Sans({ subsets: ['latin'], weight: ['400'] });
 
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${ptSans.className} antialiased`}
       >
+        <Navbar/>
         {children}
       </body>
     </html>
