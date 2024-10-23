@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <nav className='w-full h-20 bg-indigo-950 flex items-center justify-between px-14' >
+        <nav className='w-full h-20 bg-gradient-to-r from-indigo-500 to-indigo-950 flex items-center justify-between px-14' >
             <div className='flex text-white justify-center items-center gap-3'>
                 <figure className='size-10'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-full h-full">
